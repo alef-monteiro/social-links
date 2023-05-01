@@ -1,0 +1,46 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container__parents {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.aprensatacao__perfil {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.trilha__links {
+  display: flex;
+  flex-direction: column;
+}
+
+.link__acesso {
+  border: #bb99dd solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa__social__link {
+  display: flex;
+}
